@@ -57,7 +57,7 @@ function init() {
     volumeIcon.src = `assets/icons/volume-level-${volumeLevel}.svg`;
   });
 
-  // Play sound and trigger confetti (if applicable) on button click
+  // Play sound and trigger confetti click
   playButton.addEventListener('click', () => {
     hornAudio.play();
     if (hornSelect.value === 'party-horn') {
